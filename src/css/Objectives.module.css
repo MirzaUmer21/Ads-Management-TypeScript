@@ -1,0 +1,98 @@
+.tableHeading {
+  font-size: 20px;
+  color: #4d525c;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.objectiveFilterList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.objectiveFilterList li {
+  cursor: pointer;
+  margin-right: 35px;
+  color: #8992a3;
+
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+}
+.objectiveFilterList li::before {
+  position: absolute;
+  left: -17px;
+  top: 5px;
+  background: #8992a3;
+  content: '';
+  height: 15px;
+  width: 2px;
+}
+.objectiveFilterList li:last-child::before,
+.objectiveFilterList li:first-child::before {
+  display: none;
+}
+.buttonAction {
+  background-color: #ccc;
+}
+.objectivesTable {
+  table-layout: fixed;
+  margin-bottom: 32px;
+}
+.servicesEdit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 11px !important;
+}
+.servicesEdit i {
+  color: #abb6cc;
+}
+.objectivesTable tr td:nth-child(3) {
+  padding-left: 16px !important;
+}
+.objectivesTable tr td:nth-child(4) {
+  width: 180px;
+  padding-left: 12px !important;
+}
+.objectivesTable tr td:last-child {
+  text-align: right;
+}
+.objectivesTable tr td:last-child i {
+  margin-top: 10px;
+}
+.objectivesTable td.tableImage {
+  width: 70px;
+  text-align: end;
+
+  border-left: 2px solid #e6e6e6 !important;
+}
+
+.objectivesTable td.optionsCol {
+  width: 45px;
+}
+.objectivesTable td.editCol i,
+.objectivesTable td.optionsCol i {
+  cursor: pointer;
+  color: #abb6cc;
+  font-weight: 700;
+  font-size: 17px;
+}
+@media only screen and (max-width: 1200px) {
+  .objectivesTable {
+    width: 900px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .objectivesTable td.editCol,
+  .objectivesTable td.optionsCol {
+    width: 55px;
+  }
+}
+.col {
+  column-rule: solid 6px;
+  border-right: 1px solid #000;
+}
+
+/* .objectivesTable:nth-child(2) { 
+  width: 60px;
+} */

@@ -1,0 +1,112 @@
+.loginScreen {
+  background-color: #fff;
+  color: #8992a3;
+}
+.loginBackground {
+  background-image: url(../assets/images/Illustration.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.contentWrap {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 63px;
+}
+.content {
+  width: 580px;
+  padding-right: 40px;
+}
+.mainLogo {
+  margin-bottom: 32px;
+}
+.mainLoginHeadingText {
+  font-family: 'Satoshi', sans-serif;
+  margin-bottom: 60px;
+}
+.mainLoginHeadingText h2 {
+  font-size: 72px;
+  font-weight: 800;
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+.mainLoginHeadingText p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4d525c;
+}
+.loginSubmit {
+  width: 100%;
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border-radius: 4px;
+  height: 64px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: none;
+  margin: 0 0 16px 0;
+  letter-spacing: 1px;
+}
+.customFacebookButton {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 4px;
+  height: 64px;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-shadow: none;
+  letter-spacing: 1px;
+
+  border: none;
+  margin: 0 0 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.customFacebookButton img {
+  margin-right: 16px;
+}
+.customFacebookButton p {
+  margin-bottom: 0;
+}
+body .loginScreen input {
+  background-color: #fafafa !important;
+}
+.mainLoginHeadingText h2,
+.mainLoginHeadingText p {
+  margin-bottom: 0 !important;
+}
+.loginInputs {
+  margin-bottom: 30px;
+}
+.customRememberMe {
+  margin-bottom: 35px;
+}
+.customFacebookButton {
+  color: #1877f2;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.privacyPolicy {
+  text-align: center;
+}
+body .loginScreen .customRememberMe label {
+  margin-top: 3px;
+}
+@media only screen and (max-width: 992px) {
+  .content {
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .mainLoginHeadingText h2 {
+    font-size: 55px !important;
+  }
+}

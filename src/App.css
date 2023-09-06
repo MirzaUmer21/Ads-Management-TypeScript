@@ -1,0 +1,1337 @@
+/* @font-face {
+  font-family: 'Larsseit-Light';
+  src: url('assets/fonts/Larsseit/Larsseit-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('assets/fonts/Larsseit/Larsseit.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Larsseit-Medium';
+  src: url('assets/fonts/Larsseit/Larsseit-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Larsseit-Bold';
+  src: url('assets/fonts/Larsseit/Larsseit-Bold.otf') format('opentype');
+} */
+
+/* larsseit */
+/* @font-face {
+  font-family: 'Larsseit';
+  src: url('assets/fonts/Larsseit/Larsseit.woff') format('woff'),
+    url('assets/fonts/Larsseit/Larsseit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Larsseit-Bold';
+  src: url('assets/fonts/Larsseit/Larsseit-Bold.woff') format('woff'),
+    url('assets/fonts/Larsseit/Larsseit-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Larsseit-Light';
+  src: url('assets/fonts/Larsseit/Larsseit-Light.woff') format('woff'),
+    url('assets/fonts/Larsseit/Larsseit-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Larsseit-Thin';
+  src: url('assets/fonts/Larsseit/Larsseit-Thin.woff') format('woff'),
+    url('assets/fonts/Larsseit/Larsseit-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('assets/fonts/Satoshi/Satoshi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('assets/fonts/Satoshi/Satoshi-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('assets/fonts/Satoshi/Satoshi-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('assets/fonts/Satoshi/Satoshi-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: #fafafa;
+  margin: 0 !important;
+  line-height: normal !important;
+  padding: 0;
+}
+button#loginButton {
+  min-width: 100%;
+}
+h3 {
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+strong {
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+div.card {
+  border: none;
+}
+
+#sidebar {
+  padding: 0;
+  min-height: 100vh;
+}
+.mt50 {
+  margin-top: 50px !important;
+}
+.mb50 {
+  margin-bottom: 50px !important;
+}
+::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 10%;
+}
+.defaultSpaceTD {
+  width: 30% !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #5600d6;
+  border-radius: 10px !important;
+}
+.react-datepicker__input-container button span {
+  white-space: nowrap;
+}
+#content {
+  background: #fafafa;
+}
+
+#sidebar a {
+  text-decoration: none;
+}
+
+#sidebar .card-body {
+  padding: 0;
+}
+
+.apexcharts-title-text {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4d525c;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+input[type='checkbox']:checked:after {
+  width: auto;
+  height: auto;
+  display: block;
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  color: #5600d6;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  background: transparent;
+  border: none;
+  top: -1px;
+  position: relative;
+}
+
+input[type='checkbox']:after {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: none;
+}
+
+::selection {
+  color: #fff;
+  background: #5600d6;
+}
+
+body::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #5600d6;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-disabled {
+  display: none !important;
+}
+
+body .slick-prev:before,
+body .slick-next:before {
+  background: transparent !important;
+  box-shadow: 0px 8px 32px rgb(0 0 0 / 16%);
+  color: #000;
+  font-size: 32px;
+}
+
+.slick-track {
+  margin: 0 !important;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mr-5 {
+  margin-right: 16px;
+}
+
+body .stepperHeading h3 {
+  margin-bottom: 32px !important;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8992a3;
+  background-color: rgba(137, 146, 163, 0.1);
+  line-height: 22px;
+  text-align: center;
+  border-radius: 4px;
+  width: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+}
+
+.running {
+  color: #00e52e;
+  background-color: rgba(0, 229, 46, 0.1);
+}
+
+.won {
+  color: #00e52e;
+  background-color: rgba(0, 229, 46, 0.1);
+  width: 68px !important;
+}
+
+.stopped {
+  color: #e50000;
+  background-color: rgba(229, 0, 0, 0.1);
+}
+
+.lost {
+  color: #e50000;
+  background-color: rgba(229, 0, 0, 0.1);
+  width: 68px !important;
+}
+
+.pending {
+  color: #8992a3;
+  background-color: rgba(137, 146, 163, 0.1);
+}
+.textCapitalize {
+  text-transform: capitalize !important;
+}
+.runnerup {
+  color: #eba604;
+  background-color: rgba(183, 139, 62, 0.152);
+  width: 108px !important;
+}
+.activeDot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #0b980b;
+  margin-right: 5px;
+}
+
+.slick-track {
+  transform: none !important;
+}
+.inActiveDot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(161, 41, 41);
+  margin-right: 5px;
+}
+td.statusCol {
+  text-align: right;
+  padding-right: 20px !important;
+}
+body .defaultButton {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5600d6;
+  background-color: rgba(86, 0, 214, 0.1);
+  line-height: 22px;
+  text-align: center;
+  padding: 7px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+}
+
+body .defaultButton:hover,
+body .defaultButton:active,
+body .defaultButton:focus {
+  color: #5600d6;
+  background-color: rgba(86, 0, 214, 0.1);
+  opacity: 0.7;
+}
+
+/*****
+FulCrum Default Table
+*****/
+.fulcrumDefaultTable td {
+  border: none;
+  padding: 14px 5px;
+  padding-left: 0 !important;
+}
+
+.fulcrumDefaultTable td:first-child {
+  padding-left: 0 !important;
+}
+
+.fulcrumDefaultTable td strong {
+  display: block;
+  color: #8992a3;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.fulcrumDefaultTable td span {
+  color: #4d525c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.colAction i {
+  color: #abb6cc;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+body .cusstomFormStyling .current {
+  border: 2px solid #8992a3;
+  border-radius: 3px;
+  background: #fff !important;
+  width: 20px;
+  height: 20px;
+}
+
+.cusstomFormStyling .current:before {
+  color: #5600d6;
+  font-size: 16px;
+}
+
+body .cusstomFormStyling .current:after {
+  position: relative;
+  bottom: 2px !important;
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 700;
+  left: 22px !important;
+  right: auto;
+}
+
+.customBell {
+  cursor: pointer;
+  color: rgb(137, 146, 163);
+  font-size: 20px;
+  margin-left: 37px;
+  margin-top: 14px;
+}
+/*****
+FulCrum Pagination
+*****/
+
+ul.pagination {
+  align-items: center;
+  justify-content: center;
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+.active > .page-link,
+.page-link.active {
+  background: rgba(86, 0, 214, 0.1);
+  color: #5600d6;
+  border-color: #5600d6 !important;
+}
+a.page-link {
+  color: #5600d6;
+  border-color: #e6e6e6 !important;
+  font-weight: 600;
+}
+a.page-link:hover {
+  color: #5600d6;
+  box-shadow: none;
+  background: rgba(86, 0, 214, 0.1);
+  border: 1px solid #5600d6 !important;
+}
+a.page-link:focus,
+a.page-link:active {
+  box-shadow: none;
+  color: #5600d6;
+}
+li.page-item {
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  font-weight: 600;
+}
+
+/*****
+FulCrum Default Table
+*****/
+.react-datepicker-wrapper {
+  width: auto;
+}
+
+.greyBtn {
+  background: #abb6cc;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 13px 16px;
+  text-align: center;
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+.blackBtn {
+  background: #09090a;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 13px 16px;
+  text-align: center;
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+.dropdown-menu.show {
+  width: 100%;
+  padding: 0;
+}
+
+a.dropdown-item {
+  background: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 16px;
+  width: 100% !important;
+}
+
+.customImageUploadButton {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.fullScreenLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+.customImageUploadButton i {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.customFulcrumModelContent .form-group .form-control,
+.customFulcrumModelContent .form-group .app-select-formik {
+  background-color: #fafafa;
+}
+.responsiveTableCards {
+  width: 100%;
+  border: 1px solid #5600d6 !important;
+}
+.loading-msg {
+  text-align: center;
+  border: 2px solid #ebee23;
+  color: #ebee23;
+  padding: 5px;
+  font-weight: 600;
+}
+body .ModelCustomBtn {
+  background: #5600d6;
+  border-radius: 4px;
+  width: 100%;
+  height: 56px;
+  border: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+body .ModelCustomBtn:hover {
+  background: #5600d6;
+}
+
+.tableCardsOptions {
+  display: flex;
+  width: 37px;
+  justify-content: space-between;
+  align-items: center;
+}
+.tableCardsOptions i {
+  font-size: 20px;
+  color: #8992a3;
+}
+.tableCardsOptions i.fa-pen {
+  margin-right: 15px;
+}
+.notification-container .notification-info {
+  opacity: 1 !important;
+  background-color: #5600d6 !important;
+}
+.responsiveTableCards .card-body .card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.tableCardsElements {
+  padding-bottom: 20px;
+}
+.customFulcrumSelect {
+  height: 56px;
+  width: 100%;
+  border: none !important;
+  border-radius: 0px !important;
+}
+.customFulcrumSelect:focus-visible {
+  border: none !important;
+  border-radius: 0px !important;
+  outline: none !important;
+}
+.trBorder {
+  border-bottom: 1px solid #e6e6e6;
+}
+.grayFormInputs {
+  background-color: #fafafa !important;
+}
+.tableSearchBar {
+  border: none;
+  height: 35px;
+  width: 200px;
+  padding-left: 10px;
+}
+.trBorder:last-child {
+  border-bottom: none !important;
+}
+.customFulcrumSelectGray {
+  height: 56px;
+  width: 100%;
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: #fafafa !important;
+}
+.tableCardsElements strong {
+  display: block;
+  text-transform: uppercase;
+  color: #8992a3;
+
+  font-size: 12px;
+}
+.customFulcrumModelContent .form-group .app-select-formik {
+  border: #fafafa !important;
+}
+
+.customFulcrumModelContent .customCrmLogin button {
+  background: #5600d6 !important;
+}
+
+.stepperDivider {
+  margin-right: 6px !important;
+  max-width: 24px !important;
+}
+
+.connectCRMFormWrapper .stepperDivider {
+  margin-right: 6px !important;
+  max-width: 24px !important;
+}
+
+.stepperDivider1 {
+  margin-left: 35px;
+}
+
+.stepperDivider3 {
+  margin-left: 85px;
+}
+
+.stepperDivider5 {
+  margin-left: 65px;
+}
+
+.stepperDivider7 {
+  margin-left: 81px;
+}
+
+.stepperDivider9 {
+  margin-left: 70px;
+}
+
+.stepperDivider11 {
+  margin-left: 59px;
+}
+
+.stepperDivider13 {
+  margin-left: 65px;
+}
+
+.customFulcrumModelContent #react-select-field > div > div {
+  background-color: #fafafa;
+}
+
+.bJeVjx.current,
+.jHWggR.current,
+.cuhSRa.current,
+.eayxx.current,
+.jOnfcj.current,
+.hdbZjw.current,
+.jOLNzh.current {
+  border: 2px solid #5600d6;
+}
+
+.bJeVjx.current::before,
+.jHWggR.current::before,
+.cuhSRa.current::before,
+.eayxx.current::before,
+.jOnfcj.current::before,
+.hdbZjw.current::before,
+.jOLNzh.current::before,
+.gdSuOa.current::before {
+  position: absolute;
+  font-family: 'Font Awesome 5 Free';
+  top: 50%;
+  font-weight: 900;
+  content: '\f00c';
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.lcyHzf {
+  left: -50px;
+  border-radius: 0 !important;
+}
+
+.lcyHzf:after {
+  top: 3px !important;
+  left: 60px !important;
+}
+
+.cusstomFormStyling > div > div:first-child {
+  background-color: #fff;
+  height: 66px;
+  padding: 0 20px 6px;
+}
+
+body .form-control {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+body .form-control-gray {
+  background-color: #fafafa !important;
+  border: none;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+body .customInput {
+  background: #f2f2f2;
+  border-radius: 4px;
+  height: 56px;
+}
+
+.customLabel {
+  color: #8992a3;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.customLabel strong {
+  font-weight: 500;
+}
+
+.customLabel span {
+  color: red;
+  font-size: 10px;
+  text-transform: initial;
+  font-weight: 600;
+  margin-top: 4px;
+  float: right;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 40px;
+}
+
+.footer-text p {
+  display: inline-block;
+  margin: 0;
+  line-height: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #abb6cc;
+}
+
+.customformCheck .form-check .form-check-label {
+  margin-left: 20px;
+}
+
+.customformCheck .form-check input {
+  border-color: #abb6cc;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 17px;
+  height: 17px;
+}
+
+.form-check-input[type='checkbox'] {
+  width: 17px;
+  height: 17px;
+}
+
+.customformCheck .form-check {
+  align-items: start;
+}
+
+.form-check-input:checked[type='checkbox'] {
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid rgba(86, 0, 214, 0.5);
+}
+
+.form-check-input:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+  outline: 0;
+  box-shadow: none;
+}
+
+.customformCheck .form-check input:checked[type='checkbox'] {
+  background-color: transparent;
+  vertical-align: middle;
+  font-weight: 900;
+  margin-top: 10px;
+  width: 17px;
+  height: 17px;
+  color: #5600d6;
+}
+.segmentCheckbox .form-check input {
+  position: absolute;
+  top: 10px;
+}
+.objectiveSelectLabel {
+  font-size: 14px;
+  line-height: 18px;
+  color: #8992a3;
+}
+
+.objectiveSelectLabel strong {
+  font-weight: 500;
+}
+
+.campaignTable tbody img {
+  position: absolute;
+  left: -40px;
+  top: 10px;
+}
+
+.objectiveCustomSelect .app-select div {
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+.objectiveCustomSelectFormik .app-select > div {
+  background-color: #f2f2f2 !important;
+}
+
+.crmLoginForm .objectiveCustomSelect label {
+  display: block;
+}
+
+.customformCheck .form-check input:focus {
+  box-shadow: none;
+}
+
+.crmLoginForm .objectiveCustomSelect .css-1okebmr-indicatorSeparator,
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+/* custom app select */
+.app-select > div {
+  border: none;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  height: 100%;
+}
+
+#react-select > div > div,
+#react-select > div > *:focus {
+  border-radius: 0.75rem;
+}
+
+.assignCapacityCustomSelect > div {
+  width: 100%;
+}
+
+.rulesSelect > div {
+  width: 100%;
+}
+
+.assignCapacityCustomSelect #react-select-field > div > div {
+  background-color: #f2f2f2;
+  border-radius: 4px !important;
+}
+
+.customCheckboxComponent .form-check-input:checked[type='checkbox'] {
+  margin-left: 5px !important;
+  margin-top: 11px !important;
+  width: 15px !important;
+  border: 2px solid #5600d6 !important;
+  height: 15px !important;
+}
+
+.customCheckboxComponent {
+  padding-left: 0 !important;
+}
+
+.customNotificationMenus {
+  right: 10px;
+}
+
+.customNotificationMenus a {
+  background-color: #fff !important;
+  padding: 9px 12px !important;
+}
+
+.customTableMenuIcon {
+  cursor: pointer !important;
+}
+
+body .customCheckboxComponent input,
+body .rulesCustomCheckbox {
+  margin-left: 5px !important;
+  margin-top: 11px !important;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 2px !important;
+  border: 2px solid #4d525c !important;
+}
+/* .form-switch input[type='checkbox']:checked:after {
+  all: initial;
+}
+.form-switch input[type='checkbox']::after {
+  all: initial;
+} */
+
+body .rulesCustomCheckbox.form-check-input:checked[type='checkbox'],
+body .customCheckboxComponent .form-check-input:checked[type='checkbox'] {
+  margin-left: 5px !important;
+  margin-top: 11px !important;
+  width: 15px !important;
+  border: 2px solid #5600d6 !important;
+  height: 15px !important;
+}
+
+body .customCheckboxComponent .form-check-input:checked[type='checkbox']::after,
+body .rulesCustomCheckbox.form-check-input:checked[type='checkbox']::after {
+  font-size: 12px !important;
+}
+
+body .assignCapacityCustomSelect div {
+  margin-bottom: 0 !important;
+}
+
+#react-select-field > div > div,
+#react-select-field > div > *:focus {
+  border-radius: 0.75rem;
+}
+
+.color-white {
+  background: white;
+}
+
+.h-38 {
+  height: 56px !important;
+}
+
+.optionImg {
+  margin-right: 16px;
+}
+
+.app-select .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.app-select .css-109onse-indicatorSeparator {
+  display: none;
+}
+.loadingComponent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #sidebar {
+  width: 340px;
+}
+body #content {
+  width: calc(100% - 340px);
+}
+.loaderText {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.customConditionClass {
+  background: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.customStepper {
+  justify-content: unset !important;
+  margin-bottom: 16px !important;
+}
+
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.notFound h2 {
+  font-size: 42px;
+}
+.customTableStyle td span {
+  text-transform: capitalize;
+}
+
+.customAccountsButton {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+  display: flex;
+  line-height: 25px;
+  align-items: baseline;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.float-right {
+  float: right;
+}
+.full-width-box {
+  width: 100%;
+  text-transform: capitalize;
+}
+.segmentCapacity {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 18px;
+}
+body .customAccountsButton i {
+  color: white;
+  margin: 0;
+}
+.tableCollapseMainHeading {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4d525c;
+  margin: 0 0 10px 0;
+}
+.tableCollapseMainHeading i {
+  margin-left: 10px;
+}
+
+.customAccountsButton span,
+.customSegmentsButton span {
+  margin-left: 10px;
+}
+body .customFulcrumModelContent .form-control {
+  background-color: #fafafa;
+}
+.app-select div {
+  text-transform: capitalize;
+}
+@keyframes zoominoutsinglefeatured {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.notFound h2 {
+  animation: zoominoutsinglefeatured 2s infinite;
+}
+
+.app-select-formik {
+  border: 8px solid white;
+  width: 100%;
+  color: #4d525c;
+  font-size: 16px;
+}
+
+.customFulcrumAlert {
+  height: 72px;
+  width: 100%;
+}
+
+.actionDatepicker .react-datepicker-wrapper {
+  height: 45px;
+}
+
+.apexcharts-legend-text {
+  text-transform: uppercase;
+  font-family: 'Satoshi' !important;
+}
+
+.customBellMenu {
+  width: 100px !important;
+  margin-top: 29px;
+  margin-right: 25px;
+}
+
+.customFulcrumModel {
+  position: fixed;
+  z-index: 999;
+  padding: 10px 25px;
+  width: inherit;
+  height: 100%;
+  align-items: center;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+button.slick-prev {
+  z-index: 99;
+}
+#contentMobile {
+  background-color: #fafafa;
+}
+
+.customFulcrumModelHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#content > .container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.clientSelectSection {
+  padding-left: 10px;
+  height: 100px !important;
+}
+.clientSelectSection #react-select-field > div > div {
+  background-color: #fafafa;
+}
+
+/* #radio-switch {
+  all: initial;
+} */
+.clientSelectSection #react-select-field .objectiveSelectLabel strong {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4d525c;
+  margin: 0;
+  text-transform: capitalize !important;
+}
+body .accountsModelCustomClose {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 16px;
+  opacity: 1 !important;
+}
+.LandingPageWrapper {
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./assets/images/LandingImage.png);
+}
+.tableScrollWrap {
+  overflow-y: scroll;
+}
+.my-collapsible__toggle {
+  cursor: pointer;
+}
+body .css-2613qy-menu {
+  background-color: white !important;
+  height: fit-content !important;
+  border: 1px solid #fafafa !important;
+}
+body .tableScrollWrap::-webkit-scrollbar {
+  width: 4px !important;
+  background: rgba(86, 0, 214, 0.1);
+}
+.swal-icon.swal-icon--warning {
+  border-color: #5600d6 !important;
+}
+.swal-icon.swal-icon--warning .swal-icon--warning__body {
+  background-color: #5600d6 !important;
+}
+.swal-icon.swal-icon--warning .swal-icon--warning__dot {
+  background-color: #5600d6 !important;
+}
+.swal-button.swal-button--cancel:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.fa-solid.fa-pen {
+  cursor: pointer !important;
+}
+.swal-button.swal-button--cancel {
+  background-color: #5600d6 !important;
+  color: white;
+}
+body .tableScrollWrap::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+.customFulcrumModelDialog {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  overflow-y: scroll;
+}
+
+.customModelStepper {
+  justify-content: center !important;
+  margin-right: 92px !important;
+}
+
+.customModelStepper .stepperDivider {
+  max-width: 100px !important;
+  margin-left: 80px;
+  margin-right: 6px !important;
+}
+
+.errorField {
+  color: red;
+  font-size: 10px;
+  text-transform: initial;
+  font-weight: 600;
+  margin-top: 4px;
+  float: right;
+}
+.errorFieldWithoutLabel {
+  color: red;
+  font-size: 10px;
+  text-transform: initial;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.labelStyle {
+  color: #8992a3;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.labelStyle span {
+  color: red;
+  font-size: 10px;
+  text-transform: initial;
+  font-weight: 600;
+  margin-top: 4px;
+  float: right;
+}
+.success-msg {
+  text-align: center;
+  border: 2px solid #0b980b;
+  color: #0b980b;
+  padding: 5px;
+  font-weight: 600;
+}
+.error-msg {
+  text-align: center;
+  border: 2px solid #f80404;
+  color: #f80404;
+  padding: 5px;
+  font-weight: 600;
+}
+
+@media (min-width: 1400px) {
+  .customStepper,
+  .customModelStepper {
+    justify-content: center !important;
+  }
+
+  .customStepper .current14 {
+    margin-right: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul#filters li span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .actionDatepicker .react-datepicker-wrapper {
+    font-size: 12px;
+  }
+  .customFulcrumModel {
+    position: fixed;
+    z-index: 999;
+    padding: 10px;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .chartWrapper {
+    margin-bottom: 20px;
+  }
+
+  .customStepper,
+  .customModelStepper {
+    justify-content: space-evenly !important;
+    margin: 0 !important;
+  }
+
+  .customStepper .stepperDivider,
+  .customModelStepper .stepperDivider {
+    margin: 0;
+    max-width: none !important;
+  }
+
+  .customStepper .current::after,
+  .customModelStepper .current::after {
+    display: none !important;
+  }
+
+  .customStepper .current::before,
+  .customModelStepper .current::before {
+    background-color: blue;
+    content: '';
+  }
+
+  .cusstomFormStyling .current {
+    border: 2px solid #8992a3;
+    border-radius: 50%;
+    background: #fff !important;
+    width: 20px;
+    height: 20px;
+  }
+
+  .stepperDivider1,
+  .stepperDivider3,
+  .stepperDivider5,
+  .stepperDivider7,
+  .stepperDivider9,
+  .stepperDivider11,
+  .stepperDivider13 {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .chartWrapper {
+    margin-bottom: 20px;
+  }
+
+  .col-lg-12,
+  .col-md-12,
+  .col-sm-12,
+  .col-xs-12 {
+    padding: 0 !important;
+  }
+
+  .footer-text {
+    display: block !important;
+    margin-top: 30px !important;
+    text-align: center;
+    position: unset !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .apexcharts-legend {
+    display: grid !important;
+  }
+}
+
+@media (max-width: 1500px) {
+  #content {
+    min-height: 800px;
+  }
+}

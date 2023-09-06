@@ -1,0 +1,45 @@
+.buttonAction {
+  background-color: #ccc;
+}
+.capacityTable {
+  table-layout: fixed;
+}
+.capacityTable td:first-child {
+  width: 60px !important;
+}
+.capacityTable td:first-child input {
+  margin-top: 12px;
+}
+.capacityTable td:nth-child(2) {
+  width: 56px;
+}
+.capacityTable td:nth-child(3) {
+  width: 180px;
+}
+.capacityTable td.editCol {
+  width: 60px;
+}
+.capacityTable td.editCol i,
+.capacityTable td.optionsCol i {
+  cursor: pointer;
+  color: #abb6cc;
+  font-weight: 700;
+  font-size: 17px;
+  float: right;
+  margin-top: 10px;
+}
+.capacityTable td.optionsCol {
+  width: 44px;
+}
+.capacityTotalRow {
+  border-top: 1px solid #e6e6e6;
+}
+.capacityTotalRow strong {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  font-family: 'Satoshi', sans-serif !important;
+}
+body .capacityTotalRow td:first-child {
+  padding-left: 5px !important ;
+}

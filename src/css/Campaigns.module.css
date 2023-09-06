@@ -1,0 +1,76 @@
+.tableHeading {
+  font-size: 20px;
+  color: #4d525c;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.campaignFilterList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+body ul.campaignFilterList li:first-child {
+  margin-right: 20px !important;
+}
+body ul.campaignFilterList li:last-child {
+  margin-left: 23px !important;
+  color: #8992a3;
+  font-size: 17px;
+  font-weight: 900;
+}
+.buttonAction {
+  background-color: #ccc;
+}
+.campaignsTable {
+  table-layout: fixed;
+}
+.campaignsTable td:first-child {
+  width: 30px;
+}
+.campaignsTable td:nth-child(2) {
+  width: 50%;
+}
+
+.campaignsTable td.editCol,
+.campaignsTable td.optionsCol {
+  width: 40px;
+}
+.campaignsTable td.optionsCol i {
+  float: right;
+}
+.campaignsTable td.editCol i,
+.campaignsTable td.optionsCol i {
+  cursor: pointer;
+  color: #abb6cc;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.campaignfilterTitle strong {
+  color: #8992a3;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: block;
+}
+.campaignfilterTitle span {
+  color: #4d525c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 1400px) {
+  .campaignsTable td.editCol,
+  .campaignsTable td.optionsCol {
+    width: 55px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .campaignsTable {
+    width: 900px !important;
+  }
+}

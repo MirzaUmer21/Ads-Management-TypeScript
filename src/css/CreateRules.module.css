@@ -1,0 +1,345 @@
+.accountsGrid {
+  text-align: center;
+  padding: 16px 10px 8px;
+}
+.accountsGrid h4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 16px 0 2px;
+  text-align: left;
+}
+.accountsGrid p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #8f8f8f;
+  text-align: left;
+  min-height: 30px;
+}
+.customPadding {
+  margin-bottom: 120px;
+}
+.MarketingHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.marketingButton {
+  background: #f5f5f5;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  width: 100%;
+  font-size: 14px;
+}
+.marketingButton:hover,
+.marketingButton:focus {
+  background: rgba(86, 0, 214, 0.1) !important;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none !important;
+  color: #5600d6 !important;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: none !important;
+}
+.marketingButtonactive {
+  background: rgba(86, 0, 214, 0.1);
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  color: #5600d6;
+  width: 100%;
+  font-size: 14px;
+}
+.marketingButtonactive:hover,
+.marketingButtonactive:focus {
+  background: rgba(86, 0, 214, 0.1) !important;
+  color: #5600d6 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.seeLink,
+.seeLink:hover,
+.seeLink:focus {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.next,
+.prev {
+  background: #fff !important;
+  border: 0 !important;
+  position: absolute !important;
+  top: 30%;
+  right: -3% !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  border-radius: 50% !important;
+  height: 56px !important;
+  padding: 5px 10px !important;
+  width: 56px !important;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.16);
+}
+.prev {
+  left: -50px !important;
+  top: 42% !important;
+}
+.prev:before {
+  display: none !important;
+}
+.fa-arrow-left:before {
+  content: '\f060';
+  color: #000 !important;
+}
+.addsConnectivityCol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 55px;
+  margin-bottom: 1px;
+}
+.addsConnectivityHead {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.CRMConnectCol {
+  display: flex;
+
+  padding: 11px 55px;
+  margin-bottom: 1px;
+}
+.CRMSubmit {
+  width: 100%;
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border-radius: 4px;
+  height: 56px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: none;
+  margin: 0 0 16px 0;
+}
+.modalInner {
+  padding: 35px 0;
+  width: 550px;
+  margin: 0 auto;
+}
+.modalInner > div > div:first-child {
+  width: 400px;
+  margin: 0 auto 30px !important;
+}
+.dropdownCRM {
+  background: #fafafa !important;
+  color: #4d525c !important;
+  width: 100%;
+  text-align: left;
+  font-size: 17px;
+  min-height: 56px;
+  border: none !important;
+}
+.dropdownCRM:hover,
+.dropdownCRM:focus,
+.dropdownCRM:active {
+  border: none !important;
+  background: #fafafa;
+  color: #4d525c;
+  box-shadow: none !important;
+}
+.dropdownCRM:after {
+  right: 22px;
+  position: absolute;
+  top: 16px;
+  font-family: 'Font Awesome 6 Free';
+  content: '\f107';
+  font-weight: 900;
+  font-size: 17px;
+  border: none;
+}
+.labelStyle {
+  color: #8992a3;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.formField {
+  height: 56px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 16px;
+  border: 0 none;
+  margin: 0 0 16px;
+}
+.formInfo {
+  color: #abb6cc;
+  text-align: center;
+}
+.formSubmitContain {
+  margin-right: 64px;
+  padding-bottom: 32px;
+}
+.rulesSelect > div {
+  width: 100%;
+}
+
+.fieldOption {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #abb6cc;
+}
+body .fieldWhite input {
+  background-color: white !important;
+}
+.AdsContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fieldContainer p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4d525c;
+}
+.createSegmentDesc {
+  font-size: 16px;
+  color: #8992a3;
+  margin-bottom: 32px;
+}
+.ModelCustomBtn {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 21px;
+  height: 56px;
+  font-weight: 800;
+}
+.checkboxContain {
+  background: #fff;
+  overflow: hidden;
+  padding: 12px 0 15px;
+  min-height: 64px;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+.checkboxSelectedContain {
+  background: rgba(86, 0, 214, 0.1);
+  overflow: hidden;
+  padding: 12px 0 15px;
+  min-height: 64px;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.checboxText {
+  float: left;
+  text-align: left;
+}
+.optionsHeading {
+  font-size: 16px;
+  margin: 4px;
+  color: #4d525c;
+}
+.optionsSelectedHeading {
+  font-size: 16px;
+  margin: 4px;
+  color: #5600d6;
+}
+.optionsSelectedDesc {
+  color: rgba(86, 0, 214, 0.5);
+}
+.objectivesDiv {
+  background: #ffffff;
+  border-radius: 4px;
+  height: auto;
+  text-align: left;
+  padding: 18px 16px;
+}
+.objectivesDiv input {
+  /* margin-bottom: 87px; */
+  margin: 18px 0 87px 5px;
+}
+.objectivesDiv h1 {
+  font-size: 20px;
+  color: #4d525c;
+  font-weight: 700;
+}
+.objectivesDiv p {
+  font-size: 14px;
+}
+.createRulesTableWrap table tr {
+  border-bottom: 2px solid transparent;
+}
+body .createRulesTableWrap table tr.selectedCompaignsDiv {
+  height: auto;
+  text-align: left;
+  background: rgba(86, 0, 214, 0.1);
+  border-bottom: 2px solid #fff;
+}
+body .selectedCompaignsDiv:last-child {
+  border-bottom: 0px;
+}
+body .selectedCompaignsDiv td strong {
+  color: rgba(86, 0, 214, 0.5) !important;
+}
+body .selectedCompaignsDiv i {
+  color: rgba(86, 0, 214, 0.5) !important;
+}
+body .selectedCompaignsDiv td span {
+  color: #5600d6 !important;
+}
+.segmentCheckbox {
+  margin-top: 14px;
+  margin-left: 6px;
+}
+
+.selectedCompaignsDiv h1 {
+  font-size: 20px;
+  color: #5600d6;
+  font-weight: 700;
+}
+.selectedCompaignsDiv p {
+  font-size: 14px;
+}
+.hasConditionField {
+  border-radius: 4px;
+  background: #ffffff;
+  height: 56px;
+}
+.rulesTableActions {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 14px 5px;
+}
+.rulesTableActions i {
+  color: #abb6cc;
+}
+.checkboxCol {
+  vertical-align: middle;
+}
+.CompaignsCard strong {
+  color: #8992a3 !important;
+}
+.CompaignsCard span {
+  color: #4d525c !important;
+}
+.selectedCompaignsCard {
+  background: rgba(86, 0, 214, 0.1);
+  color: rgba(86, 0, 214, 0.5) !important;
+}
+.selectedCompaignsCard i {
+  color: rgba(86, 0, 214, 0.5) !important;
+}
+@media only screen and (max-width: 1200px) {
+  .createRulesTableWrap table {
+    width: 880px;
+  }
+}

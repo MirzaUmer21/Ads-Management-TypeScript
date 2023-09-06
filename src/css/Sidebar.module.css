@@ -1,0 +1,218 @@
+/******/
+
+.userProfile {
+  padding: 32px 20px 43px 64px;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+.userProfile strong {
+  display: block;
+}
+.userProfile img {
+  float: left;
+  margin-right: 8px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.thumbnailImage {
+  float: left;
+  margin-right: 8px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.userProfileText {
+  float: left;
+}
+nav.sidebarItems {
+  padding: 40px 20px 0 80px;
+}
+.sidebarItems ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebarItems li {
+  margin-bottom: 30px;
+}
+.sidebarItems a {
+  color: #8992a3;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.sidebarItems div {
+  color: #8992a3;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.sidebarCard {
+  border: 0 none !important;
+}
+.sidebarItems div i,
+.sidebarItems a i {
+  margin-right: 18px;
+  font-size: 17px;
+}
+.sidebarItems div:hover {
+  color: #5600d6;
+  cursor: pointer;
+}
+.sidebarItems a:hover,
+.sidebarItems a:active,
+.sidebarItems a:focus {
+  color: #5600d6;
+}
+.sidebarItems li.active {
+  position: relative;
+}
+.sidebarItems li.active {
+  position: relative;
+}
+.sidebarItems li.active a {
+  color: #5600d6;
+}
+.sidebarItems li.active a::before {
+  background: #5600d6;
+  width: 2px;
+  height: 44px;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  content: '';
+}
+.sideBarBottomTabs {
+  position: absolute;
+  bottom: 0;
+}
+.sidebarContent {
+  width: 100%;
+}
+.sidebarToggle {
+  display: none;
+}
+.userProfileMobile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.userProfileMobile .userProfileText {
+  margin-left: 10px;
+}
+.userProfileMobile .userProfileText strong {
+  display: block;
+}
+.mobileMenuIcon {
+  position: absolute;
+  font-size: 28px;
+  cursor: pointer;
+  top: 35px;
+  z-index: 99;
+  left: 12px;
+}
+.mobileMenuIcon:hover {
+  color: #5600d6;
+}
+@media only screen and (max-width: 1200px) {
+  nav.sidebarItems {
+    padding: 23px !important;
+    display: flex;
+  }
+  nav.sidebarItems i {
+    font-size: 18px;
+  }
+  .activeToggle {
+    color: #5600d6;
+  }
+  nav.sidebarItems span {
+    font-size: 18px;
+  }
+  .sidebarClose {
+    width: 10% !important;
+  }
+
+  .sidebarOpen .userProfile {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    font-size: 11px;
+    padding: 0 !important;
+  }
+  .sidebarOpen .userProfile img {
+    width: 30px;
+    height: auto;
+  }
+  .sidebarOpen .sidebarToggle,
+  .sidebarClose .sidebarToggle {
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  .sidebarOpen .sidebarToggle i,
+  .sidebarClose .sidebarToggle i {
+    font-size: 30px;
+  }
+
+  .sidebarClose .userProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px !important;
+  }
+  .sidebarClose .userProfile img {
+    margin: 0 !important;
+  }
+  .sidebarClose .userProfile .userProfileText {
+    display: none;
+  }
+  .sidebarClose .linkText {
+    display: none;
+  }
+  .sidebarClose .sidebarItems {
+    display: flex;
+    justify-content: center;
+    padding: 15% !important;
+  }
+  .sidebarClose .sidebarItems li.active a::before {
+    display: none !important;
+  }
+  .sidebarItems li.active a::before {
+    height: 20px;
+    left: -10px;
+    top: 3px;
+  }
+  .sidebarClose .sidebarItems li i {
+    margin: 0 !important;
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .sidebarOpen .sidebarItems a i {
+    margin-right: 8px;
+    font-size: 10px;
+  }
+  .sidebarOpen nav.sidebarItems span {
+    font-size: 10px;
+  }
+  .sidebarOpen .sidebarItems li {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sideBarBottomTabsMobile {
+    display: block !important;
+  }
+}

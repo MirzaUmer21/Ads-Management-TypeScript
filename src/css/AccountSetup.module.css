@@ -1,0 +1,62 @@
+.NavCol {
+  height: 119px;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.NavHeading {
+  font-weight: 700;
+  font-size: 36px;
+}
+.NavText {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #8992a3;
+}
+.customInputButton {
+  background: #f2f2f2;
+  border-radius: 4px;
+  height: 44px;
+  color: #4d525c;
+  padding: 12px 15px;
+  border: none;
+}
+.calender {
+  font-size: 17px;
+  margin-right: 8px;
+}
+
+.customAccountsButton {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border: none;
+  padding: 10px 36px;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+  display: flex;
+  line-height: 25px;
+  align-items: baseline;
+}
+.customAccountsButton span {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .NavCol{
+    padding: 0 0 0 25px;
+  }
+  .mobileNavWrapper {
+    margin-top: 20px;
+  }
+  .mobileNavWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobileNavWrapper i {
+    margin: 0 !important;
+  }
+  .mobileNavWrapper .NavHeading {
+    font-size: 25px;
+  }
+}

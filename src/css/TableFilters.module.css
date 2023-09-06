@@ -1,0 +1,58 @@
+.filterList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.filterList li {
+  cursor: pointer;
+  margin-right: 35px;
+  color: #8992a3;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+}
+.filterList li::before {
+  position: absolute;
+  left: -17px;
+  top: 5px;
+  background: #8992a3;
+  content: '';
+  height: 15px;
+  width: 2px;
+}
+.filterList li:last-child::before,
+.filterList li:first-child::before {
+  display: none;
+}
+.mobileFilter {
+  padding: 20px 10px 10px;
+}
+.enableFilter {
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
+@media only screen and (max-width: 1200px) {
+  .filtersWrapper {
+    display: block;
+  }
+  .filterList {
+    display: block !important;
+  }
+  .filterBars {
+    display: none !important;
+  }
+  .filterList li {
+    cursor: pointer;
+    margin-right: 10px;
+    color: #8992a3;
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    position: relative;
+  }
+  .filterList li::before,
+  .filterList li::before {
+    display: none;
+  }
+}

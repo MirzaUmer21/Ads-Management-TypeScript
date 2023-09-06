@@ -1,0 +1,79 @@
+.tableHeading {
+  font-size: 20px;
+  color: #4d525c;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.segmentFilterList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.segmentFilterList li {
+  cursor: pointer;
+  margin-right: 35px;
+  color: #8992a3;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+}
+.segmentFilterList li::before {
+  position: absolute;
+  left: -17px;
+  top: 5px;
+  background: #8992a3;
+  content: '';
+  height: 15px;
+  width: 2px;
+}
+.segmentFilterList li:last-child::before,
+.segmentFilterList li:first-child::before {
+  display: none;
+}
+.buttonAction {
+  background-color: #ccc;
+}
+.segmentsTable {
+  table-layout: fixed;
+}
+.segmentsTableWrapper {
+  margin-bottom: 32px;
+}
+.segmentsTableWrapper table {
+  margin-bottom: 0 !important;
+}
+.segmentsTable td:first-child {
+  width: 60px;
+  padding-left: 0 !important;
+}
+.segmentsTable td.editCol,
+.segmentsTable td.optionsCol {
+  width: 40px;
+}
+.segmentsTable td.editCol i,
+.segmentsTable td.optionsCol i {
+  cursor: pointer;
+  color: #abb6cc;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .tableHeading {
+    margin-top: 30px;
+  }
+
+  .segmentFilterList {
+    white-space: nowrap;
+  }
+
+  .segmentsTable {
+    width: 900px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .segmentsTable td.editCol,
+  .segmentsTable td.optionsCol {
+    width: 55px;
+  }
+}

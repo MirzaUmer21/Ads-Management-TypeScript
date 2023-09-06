@@ -1,0 +1,197 @@
+.NavCol {
+  padding: 32px 0px;
+  display: flex;
+}
+.NavHeading {
+  font-weight: 700;
+  font-size: 36px;
+  white-space: nowrap;
+}
+.NavText {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #8992a3;
+}
+.customInputButton {
+  background: #f2f2f2;
+  border-radius: 4px;
+  height: 44px;
+  color: #4d525c;
+  padding: 12px 16px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+.calender {
+  font-size: 17px;
+  margin-right: 8px;
+}
+
+.customAccountsButton {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+  display: flex;
+  line-height: 25px;
+  align-items: baseline;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.customAccountsButton span,
+.customSegmentsButton span {
+  margin-left: 10px;
+}
+
+.customSegmentsButton {
+  background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+
+  height: 44px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  line-height: 25px;
+  align-items: baseline;
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+.baseDiv1 {
+  border-radius: 4px;
+  background-color: rgba(86, 0, 214, 0.1);
+}
+.baseDiv,
+.baseDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1042px;
+  height: 72px;
+}
+.div,
+.youHave3NewCampaignsPendi {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: inline-block;
+}
+.alerttext {
+  position: relative;
+  top: 23px;
+  left: 310px;
+  width: 630px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 164%;
+  font-weight: 600;
+  color: #5600d6;
+  display: flex;
+}
+.alertDiv,
+.textDiv {
+  position: absolute;
+  top: 23px;
+  left: 310px;
+  width: 430px;
+  height: 26px;
+}
+.alertDiv {
+  top: 119px;
+  left: 35px;
+  width: 1042px;
+  height: 72px;
+  text-align: left;
+  font-size: 21px;
+  color: #5600d6;
+}
+.customFulcrumAlert {
+  height: 72px;
+  background: rgba(86, 0, 214, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5600d6;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.customFulcrumAlert i {
+  font-size: 21px;
+  margin-right: 10px;
+}
+.compaignNavWrap {
+  margin-bottom: 30px;
+}
+.compaignNavWrap .NavCol {
+  padding: 32px 0px 10px 0px;
+  height: unset;
+}
+.capacityNavWrap {
+  margin-bottom: 30px;
+}
+.capacityNavWrap .NavCol {
+  padding: 32px 0px 10px 0px;
+  height: unset;
+}
+@media only screen and (max-width: 1200px) {
+  .NavHeadingContainer .NavHeading {
+    font-size: 28px;
+  }
+  .NavHeadingContainer .NavText {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navHeadingWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .NavHeadingContainer {
+    padding: 0 0 0 30px !important;
+  }
+  .NavCol {
+    padding: 32px 0px;
+    display: block;
+  }
+  .customAccountsButton {
+    background: linear-gradient(270deg, #5600d6 -23%, #14e6f5 116%);
+    border: none;
+    padding: 10px 36px;
+    color: white;
+    border-radius: 4px;
+    height: 44px;
+    display: flex;
+    line-height: 25px;
+    align-items: baseline;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .customAccountsButton {
+    font-size: 12px;
+    padding: 8px 20px;
+    margin-right: 0 !important;
+    height: 38px;
+  }
+  .customFulcrumAlert {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .customFulcrumAlert i {
+    font-size: 18px;
+  }
+}
